@@ -1,8 +1,8 @@
 # Readme
 
-### Project
+### Project Demo
 
-- [https://pixel-defense.netlify.app/](https://pixel-defense.netlify.app/)
+- [https://pixi-test-task.netlify.app/](https://pixi-test-task.netlify.app/)
 
 ### Stack
 - Pixi.JS
