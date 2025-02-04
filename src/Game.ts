@@ -29,7 +29,12 @@ export class Game {
   }
 
   private onPointerDown(event: FederatedPointerEvent) {
-    const {x, y} = event.global;
+    let {x, y} = event.global;
+    const margin = 80;
+    if (x <= margin) x += margin;
+    if (x >= this.app.screen.width - margin) x -= margin;
+    if (y <= margin) y += margin;
+    if (y >= this.app.screen.height - margin) y -= margin;
     this.ship.getPointerTarget({x, y});
   }
 
